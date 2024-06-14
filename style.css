@@ -106,8 +106,14 @@ img {
 
     }
 
+    select {
+        text-align: center;
+
+    }
+
     .inputs {
         padding: 10% 10% 0% 10%;
+
     }
 }
 
