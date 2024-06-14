@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2657/2657175.png" type="image/x-icon">
+
+    <title>COIN CONVERTER</title>
+</head>
+
+<body>
+    <h1 class="demo">COIN CONVERTER</h1>
+    <div class="cointainer">
+
+        <div class="inputs">
+            <select id="coin1">
+                <option value="">COIN</option>
+                <option value="BRL">REAL</option>
+                <option value="USD">DOLAR</option>
+                <option value="EUR">EURO</option>
+            </select>
+            <select id="coin2">
+                <option value="">COIN</option>
+                <option value="BRL">REAL</option>
+                <option value="USD">DOLAR</option>
+                <option value="EUR">EURO</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <input id="valor1" type="number" placeholder="Digite o Valor">
+            <input id="valor2" type="number" placeholder="RESULTADO" disabled>
+        </div>
+        <img id="btn" onclick="somar()" src="img/din.png" alt="">
+    </div>
+</body>
+
+</html>
